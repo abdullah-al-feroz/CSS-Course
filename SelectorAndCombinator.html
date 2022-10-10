@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        /* univarsal selector */
+        /* *{
+            background-color: green;
+            color: red
+        } */
+/* multiple selcector */
+        /* h1, p, h2, h3{
+            background-color: red;
+            color: white
+        } */
+/* select only div section paragraph 1 to 3 */
+ /* div p{
+    color: red
+ } */
+
+
+ /* div child select  */
+ /* select only div section paragraph 1 to 3 */
+ /* div > p{
+    color: red
+ } */
+
+  /* Adjacent sibling selector  */
+ /* select only paragraph 4 that follow only immediate section */
+ /* div + p{
+    color: red
+ } */
+
+  /* General sibling selector  */
+ /* selectsection paragraph 4 to 5 that follow after div to last */
+ div ~ p{
+    color: red
+ }
+
+    </style>
+</head>
+<body>
+    <h1>This is h1</h1>
+    <div>
+        <p>This is paragraph 1</p>
+        <p>This is paragraph 2</p>
+    </div>
+   <div> <p>This is paragraph 3</p></div>
+   <p>This is paragraph 4</p>
+   <p>This is paragraph 5</p>
+</body>
+</html>
