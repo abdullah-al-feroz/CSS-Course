@@ -7,13 +7,25 @@
         .align{
             text-align: center;
         }
+        .decoration{
+            /* text-decoration: line-through;  work as html strike */
+            text-indent: 50px; /* move text in first line paragraph*/
+        }
+        .decoration1{
+            text-align:  justify; /*when left and right space is eqal*/
+        }
+        .decoration2{
+            /* text-shadow: 3px 1px gray;  Shadow text */
+            word-spacing: 100px; /*space between word*/
+           
+        }
     </style>
 </head>
 
 <body>
-    <div id="section1" class="align">
-        <h1>Programming</h1>
-        <p>
+    <div id="section1">
+        <h1 class="decoration2">Programming</h1>
+        <p class="decoration2">
             Computer programming is the process of performing a particular computation (or more generally, accomplishing
             a specific computing result), usually by designing and building an executable computer program. Programming
             involves tasks such as analysis, generating algorithms, profiling algorithms' accuracy and resource
