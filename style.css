@@ -1,7 +1,11 @@
-h1{
+/* h1{
     font-size: 30px;
     color: blue
 }
 p{
     color: green
+} */
+span{
+    color: yellow;
+    font-size: 30px;
 }
