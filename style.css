@@ -5,7 +5,29 @@
 p{
     color: green
 } */
-span{
+/* span{
     color: yellow;
     font-size: 30px;
+} */
+
+/* div{
+    background-color: green;
+    display: inline;
+}
+
+span{
+    background-color: skyblue;
+} */
+
+.section1{
+    width: 900px;
+    margin: auto;
+    border: 3px solid green;
+}
+
+.section2{
+    margin-top: 50px;
+    max-width: 900px;
+    margin: auto;
+    border: 3px solid yellow;
 }
