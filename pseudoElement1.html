@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo - class and Pseudo- Element </title>
+</head>
+<style>
+    a.my-link:hover{
+        background-color: blue;
+    }
+    /* a:hover{
+        background-color: aqua;
+    } */
+    input{
+        padding: 10px;
+        font-size: 20px;
+        width: 150px;
+    }
+    /* input:hover{
+        background-color: blueviolet;
+    } */
+    input:focus{
+        background-color: coral;
+    }
+    table, tr, td{
+        border: 1px solid black;
+    }
+    tr:nth-child(odd){
+         background-color: brown;
+    }
+    p:hover{
+        color:brown
+    }
+    p::first-letter{
+        color: coral;
+        font-size: 20px;
+    }
+    p::first-line{
+        color: coral;
+        font-size: 20px;
+    }
+    p::after{
+        content: ">";
+    }
+    p::before{
+        content: ">";
+    }
+</style>
+<body>
+    <a class="my-link" href="#" >Tutorial</a>
+    <a href="#" >Home</a>
+    <input type="text" placeholder="Enter your name"></input>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+        </tr>
+        <tr>
+            <td>Rahat</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Faysal</td>
+            <td>30</td>
+        </tr>
+    </table>
+    <p>
+        Paragraph on Importance of English:  English is an international development language. It’s the Global tongue that has an effect on many aspects of our lives. It helps to communicate with people from different countries and cultures, which is essential for business, travel and education.
+    </p>
+</body>
+</html>
